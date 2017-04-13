@@ -1,0 +1,9 @@
+C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\bin\Microsoft.PythonTools.WebRole.dll
+C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\bin\AzureSetup.cfg
+C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\bin\Microsoft.PythonTools.AzureSetup.exe
+C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\bin\Microsoft.PythonTools.AzureSetup.exe.config
+C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\bin\wfastcgi.py
+C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\obj\Release\deployment-updated-orig-prefix.txt
+C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\ptvs_virtualenv_proxy.py
+C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\obj\Release\web.config
+C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\obj\Release\web.debug.config
