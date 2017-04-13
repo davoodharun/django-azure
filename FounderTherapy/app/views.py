@@ -12,6 +12,7 @@ from django.template import RequestContext
 from django.utils import timezone
 from django.views.generic import ListView, DetailView
 from os import path
+from django.views.decorators.cache import cache_page
 
 import json
 
@@ -45,6 +46,7 @@ class PollResultsView(DetailView):
         context['year'] = datetime.now().year
         return context
 
+@cache_page(60 * 15)
 def contact(request):
     """Renders the contact page."""
     assert isinstance(request, HttpRequest)

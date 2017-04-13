@@ -43,6 +43,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE_CLASSES = [
+    'django.middleware.cache.UpdateCacheMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -51,6 +52,7 @@ MIDDLEWARE_CLASSES = [
     'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.middleware.cache.FetchFromCacheMiddleware',
 ]
 
 ROOT_URLCONF = 'FounderTherapy.urls'
@@ -94,11 +96,11 @@ DATABASES = {
 
 CACHES = {
     'default': {
-        'BACKEND': 'redis_cache.RedisCache',
-        'LOCATION': '{}:6380'.format('foundertherapy.redis.cache.windows.net'),
+        'BACKEND': 'django_redis.cache.RedisCache',
+        'LOCATION': 'redis://foundertherapy.redis.cache.windows.net:6379/1',
         'OPTIONS': {
             'DB': 1,
-            'PASSWORD':'1Gd1uvQS/KkjXn1AAJicDcgRvXdNFmWKWrthf3by4Lk',
+            'PASSWORD':'1Gd1uvQS/KkjXn1AAJicDcgRvXdNFmWKWrthf3by4Lk=',
             'CONNECTION_POOL_CLASS': 'redis.BlockingConnectionPool',
             'CONNECTION_POOL_CLASS_KWARGS': {
                 'max_connections': 50,
