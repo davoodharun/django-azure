@@ -1,0 +1,5 @@
+lzma
+CompressorError
+absolute_import
+BaseCompressor
+LzmaCompressor

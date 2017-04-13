@@ -7188,3 +7188,81 @@ C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Micro
 2017-04-13T05:47:58: Saving group "c:\users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\sql_server"
 2017-04-13T05:47:58: End of group "c:\users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\sql_server"
 2017-04-13T05:47:59: Deleting 0 files
+
+2017-04-13T15:27:09: Start analysis
+2017-04-13T15:27:09: [WARNING] Library was set explicitly - skipping path detection
+2017-04-13T15:27:09: IncludeModulesFromModulePath = win32com
+2017-04-13T15:27:10: Deleting 0 files
+2017-04-13T15:27:10: astropy.CallDepth = 0
+2017-04-13T15:27:10: matplotlib.CallDepth = 3
+2017-04-13T15:27:10: pandas.CallDepth = 0
+2017-04-13T15:27:10: sympy.CallDepth = 0
+2017-04-13T15:27:10: Start group "C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\django_redis" with 20 files
+2017-04-13T15:27:17: Parsing "django_redis.cache" ("C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\django_redis\cache.py")
+2017-04-13T15:27:17: Parsing "django_redis.exceptions" ("C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\django_redis\exceptions.py")
+2017-04-13T15:27:17: Parsing "django_redis.hash_ring" ("C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\django_redis\hash_ring.py")
+2017-04-13T15:27:17: Parsing "django_redis.pool" ("C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\django_redis\pool.py")
+2017-04-13T15:27:17: Parsing "django_redis.util" ("C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\django_redis\util.py")
+2017-04-13T15:27:17: Parsing "django_redis" ("C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\django_redis\__init__.py")
+2017-04-13T15:27:17: Parsing "django_redis.client.default" ("C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\django_redis\client\default.py")
+2017-04-13T15:27:17: Parsing "django_redis.client.herd" ("C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\django_redis\client\herd.py")
+2017-04-13T15:27:17: Parsing "django_redis.client.sharded" ("C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\django_redis\client\sharded.py")
+2017-04-13T15:27:17: Parsing "django_redis.client" ("C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\django_redis\client\__init__.py")
+2017-04-13T15:27:17: Parsing "django_redis.compressors.base" ("C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\django_redis\compressors\base.py")
+2017-04-13T15:27:17: Parsing "django_redis.compressors.identity" ("C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\django_redis\compressors\identity.py")
+2017-04-13T15:27:17: Parsing "django_redis.compressors.lzma" ("C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\django_redis\compressors\lzma.py")
+2017-04-13T15:27:17: Parsing "django_redis.compressors.zlib" ("C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\django_redis\compressors\zlib.py")
+2017-04-13T15:27:17: Parsing "django_redis.compressors" ("C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\django_redis\compressors\__init__.py")
+2017-04-13T15:27:17: Parsing "django_redis.serializers.base" ("C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\django_redis\serializers\base.py")
+2017-04-13T15:27:17: Parsing "django_redis.serializers.json" ("C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\django_redis\serializers\json.py")
+2017-04-13T15:27:17: Parsing "django_redis.serializers.msgpack" ("C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\django_redis\serializers\msgpack.py")
+2017-04-13T15:27:17: Parsing "django_redis.serializers.pickle" ("C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\django_redis\serializers\pickle.py")
+2017-04-13T15:27:17: Parsing "django_redis.serializers" ("C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\django_redis\serializers\__init__.py")
+2017-04-13T15:27:17: Parsing complete
+2017-04-13T15:27:17: Analyzing "django_redis.cache"
+2017-04-13T15:27:17: Analyzing "django_redis.exceptions"
+2017-04-13T15:27:17: Analyzing "django_redis.hash_ring"
+2017-04-13T15:27:17: Analyzing "django_redis.pool"
+2017-04-13T15:27:17: Analyzing "django_redis.util"
+2017-04-13T15:27:17: Analyzing "django_redis"
+2017-04-13T15:27:17: Analyzing "django_redis.client.default"
+2017-04-13T15:27:17: Analyzing "django_redis.client.herd"
+2017-04-13T15:27:17: Analyzing "django_redis.client.sharded"
+2017-04-13T15:27:17: Analyzing "django_redis.client"
+2017-04-13T15:27:17: Analyzing "django_redis.compressors.base"
+2017-04-13T15:27:17: Analyzing "django_redis.compressors.identity"
+2017-04-13T15:27:17: Analyzing "django_redis.compressors.lzma"
+2017-04-13T15:27:17: Analyzing "django_redis.compressors.zlib"
+2017-04-13T15:27:17: Analyzing "django_redis.compressors"
+2017-04-13T15:27:17: Analyzing "django_redis.serializers.base"
+2017-04-13T15:27:17: Analyzing "django_redis.serializers.json"
+2017-04-13T15:27:17: Analyzing "django_redis.serializers.msgpack"
+2017-04-13T15:27:17: Analyzing "django_redis.serializers.pickle"
+2017-04-13T15:27:17: Analyzing "django_redis.serializers"
+2017-04-13T15:27:17: Starting analysis of 20 modules
+2017-04-13T15:27:18: Analysis complete
+2017-04-13T15:27:18: Saving group "C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\django_redis"
+2017-04-13T15:27:18: End of group "C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\django_redis"
+2017-04-13T15:27:18: Start group "C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\redis" with 8 files
+2017-04-13T15:27:20: Parsing "redis.client" ("C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\redis\client.py")
+2017-04-13T15:27:20: Parsing "redis.connection" ("C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\redis\connection.py")
+2017-04-13T15:27:20: Parsing "redis.exceptions" ("C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\redis\exceptions.py")
+2017-04-13T15:27:20: Parsing "redis.lock" ("C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\redis\lock.py")
+2017-04-13T15:27:20: Parsing "redis.sentinel" ("C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\redis\sentinel.py")
+2017-04-13T15:27:20: Parsing "redis.utils" ("C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\redis\utils.py")
+2017-04-13T15:27:20: Parsing "redis._compat" ("C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\redis\_compat.py")
+2017-04-13T15:27:20: Parsing "redis" ("C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\redis\__init__.py")
+2017-04-13T15:27:20: Parsing complete
+2017-04-13T15:27:20: Analyzing "redis.client"
+2017-04-13T15:27:20: Analyzing "redis.connection"
+2017-04-13T15:27:20: Analyzing "redis.exceptions"
+2017-04-13T15:27:20: Analyzing "redis.lock"
+2017-04-13T15:27:20: Analyzing "redis.sentinel"
+2017-04-13T15:27:20: Analyzing "redis.utils"
+2017-04-13T15:27:20: Analyzing "redis._compat"
+2017-04-13T15:27:20: Analyzing "redis"
+2017-04-13T15:27:20: Starting analysis of 8 modules
+2017-04-13T15:27:20: Analysis complete
+2017-04-13T15:27:20: Saving group "C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\redis"
+2017-04-13T15:27:21: End of group "C:\Users\davoodharun\documents\visual studio 2015\Projects\FounderTherapy\FounderTherapy\env\Lib\site-packages\redis"
+2017-04-13T15:27:21: Deleting 0 files

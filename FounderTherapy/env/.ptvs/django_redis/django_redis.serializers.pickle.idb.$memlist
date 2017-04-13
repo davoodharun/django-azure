@@ -1,0 +1,8 @@
+BaseSerializer
+absolute_import
+unicode_literals
+force_text
+force_bytes
+PickleSerializer
+pickle
+ImproperlyConfigured

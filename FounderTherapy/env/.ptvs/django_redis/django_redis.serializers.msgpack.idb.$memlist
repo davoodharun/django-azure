@@ -1,0 +1,5 @@
+MSGPackSerializer
+absolute_import
+unicode_literals
+BaseSerializer
+msgpack

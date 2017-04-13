@@ -91,7 +91,29 @@ DATABASES = {
             }
         }
     }
+
+CACHES = {
+    'default': {
+        'BACKEND': 'redis_cache.RedisCache',
+        'LOCATION': '{}:6380'.format('foundertherapy.redis.cache.windows.net'),
+        'OPTIONS': {
+            'DB': 1,
+            'PASSWORD':'1Gd1uvQS/KkjXn1AAJicDcgRvXdNFmWKWrthf3by4Lk',
+            'CONNECTION_POOL_CLASS': 'redis.BlockingConnectionPool',
+            'CONNECTION_POOL_CLASS_KWARGS': {
+                'max_connections': 50,
+                'timeout': 20,
+            }
+        },
+        'TIMEOUT': None
+    },
+}
+
+CACHE_TTL = 60 * 15
 LOGIN_URL = '/login'
+
+SESSION_ENGINE = "django.contrib.sessions.backends.cache"
+SESSION_CACHE_ALIAS = "default"
 
 
 # Password validation
